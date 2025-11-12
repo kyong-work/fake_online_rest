@@ -1,0 +1,38 @@
+{
+    "required_true": {
+        "success": true,
+        "data": {
+            "requiredBankAccount": true
+        }
+    },
+    "required_false": {
+        "success": true,
+        "data": {
+            "requiredBankAccount": true
+        }
+    },
+    "required_error": {
+        "success": false,
+        "data": {
+            "error_code": 1,
+            "error": "workday error"
+        }
+    },
+    "details_success": {
+        "success": true
+    },
+    "details_error_1": {
+        "success": false,
+        "data": {
+            "error_code": 1,
+            "error": "workday error"
+        }
+    },
+    "details_error_2": {
+        "success": false,
+        "data": {
+            "error_code": 2,
+            "error": "password invalid"
+        }
+    }
+}
